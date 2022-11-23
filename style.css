@@ -46,12 +46,18 @@ header {
 .btn-login {
   margin: 0 15px 0 0;
   border: 1px solid #FB8F1D;
-  color: #FB8F1D
+}
+
+.btn-login p {
+  color: #FB8F1D;
+}
+
+.btn-register p {
+  color: #FFFFFF;
 }
 
 .btn-register {
   background-color: #FB8F1D;
-  color: #FFFFFF;
 }
 
 .btn-login,
@@ -63,6 +69,7 @@ header {
   height: 40px;
   border-radius: 8px;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .btn-login p,
