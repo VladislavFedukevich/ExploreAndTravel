@@ -199,6 +199,20 @@ header {
   margin: 0 0 240px 0;
 }
 
+.view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90px;
+  height: 20px;
+}
+
+.icon-arrow {
+  background: url(assets/icon-arrow.svg) no-repeat;
+  width: 20px;
+  height: 11px;
+}
+
 .view-all {
   display: flex;
   width: 100%;
@@ -270,6 +284,47 @@ main {
 
 footer {
   width: 100%;
+  min-height: 410px;
   display: flex;
-  background-color: #848484;
+  background-color: #f9f9fb;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1220px;
+  margin: 0 auto;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 360px;
+  height: 200px;
+}
+
+.footer-content p {
+  font: 300 18px "Mulish";
+  color: #848484;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.row h2 {
+  font: 700 19px "Mulish";
+  margin: 0 0 15px 0;
+}
+
+.row ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  height: 200px;
+  justify-content: space-between;
 }
