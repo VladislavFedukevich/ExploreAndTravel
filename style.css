@@ -328,3 +328,29 @@ footer {
   height: 200px;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 600px){
+  .img-boy {
+    display: none;
+  }
+
+  .fly-boy {
+    display: none;
+  }
+
+  .slider {
+    flex-direction: column;
+  }
+
+  .slider .img-slider:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .wrapper {
+    width: 600px;
+  }
+
+  .footer-content {
+    min-width: 600px;
+  }
+}
